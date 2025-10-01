@@ -15,7 +15,7 @@ body {
   color: #030202;
   list-style: none; /* Quita los puntos */
 }
-.nav li {
+.nav ul li a{
   width: 100px;             /* Ancho fijo para que sean cuadrados */
   height: 100px;            /* Igual al ancho */
   background-color: #3498db;
