@@ -10,7 +10,7 @@ body {
   padding: 0;
   margin: 0;
 }
-.nav ul {
+.nav ul li a {
   text-decoration: none;
   color: #030202;
 }
