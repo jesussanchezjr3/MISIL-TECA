@@ -13,4 +13,5 @@ body {
 .nav ul li a {
   text-decoration: none;
   color: #030202;
+  list-style: none; /* Quita los puntos */
 }
