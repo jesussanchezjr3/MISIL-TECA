@@ -2,6 +2,13 @@ body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
 }
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* los coloca en línea */
+  background-color: #1e1e2f;
+}
 
 h1 {
   color: #0077cc;
