@@ -14,10 +14,6 @@ body {
   text-decoration: none;
   color: #030202;
   list-style: none; /* Quita los puntos */
-  width: 100px;     /* Ancho fijo para que sean cuadrados */
-  height: 100px;    /* Igual al ancho */
-  background-color: #3498db;
-  border-radius: 8px;       /* Bordes redondeados */
 }
 .nav a {
   text-decoration: none;
