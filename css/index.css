@@ -4,20 +4,22 @@ body {
 }
 .nav {
   list-style: none; /* Quita los puntos */
+  display: flex; /* Horizontalmente */
+  gap: 20px; /* Espacio entre elementos */
   padding: 0;
   margin: 0;
 }
-.nav li {
-  display: inline-block; /* Los coloca uno al lado del otro */
-  margin-right: 20px;    /* Espacio entre ellos */
+.nav a {
+  text-decoration: none;
+  color: #030202;
 }
 
 h1 {
-  color: #0077cc;
+  color: #030202;
   text-align: center;
 }
 
 p {
-  color: #333;
+  color: #030202;
   font-size: 18px;
 }
