@@ -14,17 +14,10 @@ body {
   text-decoration: none;
   color: #030202;
   list-style: none; /* Quita los puntos */
-}
-.nav ul li a{
-  width: 100px;             /* Ancho fijo para que sean cuadrados */
-  height: 100px;            /* Igual al ancho */
+  width: 100px;     /* Ancho fijo para que sean cuadrados */
+  height: 100px;    /* Igual al ancho */
   background-color: #3498db;
-  color: white;
-  display: flex;            /* Centra el texto */
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;       /* Bordes redondeados (opcional) */
-  cursor: pointer;
+  border-radius: 8px;       /* Bordes redondeados */
 }
 .nav a {
   text-decoration: none;
