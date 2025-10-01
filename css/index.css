@@ -10,8 +10,11 @@ body {
   padding: 0;
   margin: 0;
 }
-.nav ul li a {
+.nav ul {
   text-decoration: none;
   color: #030202;
   list-style: none; /* Quita los puntos */
+}
+.nav a {
+  text-decoration: none;
 }
