@@ -9,6 +9,9 @@ body {
   display: flex; /* los coloca en línea */
   background-color: #1e1e2f;
 }
+.nav li {
+  margin: 0;
+}
 
 h1 {
   color: #0077cc;
