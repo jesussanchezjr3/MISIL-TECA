@@ -4,7 +4,8 @@ body {
 }
 .nav {
   list-style: none; /* Quita los puntos */
-  display: flex; /* Horizontalmente */
+  display: flex; /* Pone los elementos de la lista horizontalmente */
+  justify-content: center;   /* Centra horizontalmente la lista */
   gap: 90px; /* Espacio entre elementos */
   padding: 0;
   margin: 0;
