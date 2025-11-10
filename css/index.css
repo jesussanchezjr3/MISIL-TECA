@@ -18,3 +18,19 @@ body {
 .nav a {
   text-decoration: none;
 }
+.nav li a {
+  display: block;               /* Permite que el cuadro se aplique correctamente */
+  padding: 15px 25px;           /* Tamaño del cuadro */
+  text-decoration: none;        /* Sin subrayado */
+  color: #fff;                  /* Color del texto */
+  background-color: #333;       /* Fondo del cuadro */
+  border: 2px solid #555;       /* Borde visible */
+  border-radius: 10px;          /* Bordes redondeados (puedes poner 0 si los quieres cuadrados) */
+  transition: all 0.3s ease;    /* Suaviza el efecto hover */
+}
+
+.nav li a:hover {
+  background-color: #555;       /* Cambia el color al pasar el mouse */
+  border-color: #888;           /* Cambia el borde */
+  transform: scale(1.05);       /* Efecto de agrandamiento */
+}
