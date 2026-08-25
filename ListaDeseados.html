@@ -3,48 +3,109 @@
 <head>
   <title>M1SIL-TECA</title>
   <meta charset="UTF-8" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .subtitulo {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .contenedor {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .columna h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 700px) {
+      .contenedor {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1 style="text-align: center;">LA M1SIL-TECA</h1>
-  <p style="text-align: center;">LISTA DE DESEADOS</p>
-  <ol>
-    <li>Sin City</li>
-    <li>Superman Hijo Rojo</li>
-    <li>Batman: El regreso del caballero oscuro - Frank Miller</li>
-    <li>La liga de la justicia: Origen</li>
-    <li>Nightwing</li>
-    <li>Green Lantern</li>
-    <li>The walking dead</li>
-    <li>The crow</li>
-    <li>Transmetropolitan</li>
-    <li>The nice house on the lake</li>
-    <li>El monstruo de la laguna vive - MOZTROS</li>
-    <li>Scalped</li>
-    <li>La carretera - Manu Larcenet</li>
-    <li>W0RLDTR33</li>
-    <li>Silent Jenny</li>
-    <li>I am a hero (Manga)</li>
-    <li>Moonshine</li>
-    <li>La mano y los seis dedos</li>
-    <li>Verity - Libro</li>
-    <li>Something is killing the children | Secuela - La casa Slaughter</li>
-    <li>Batman: Haunted Knight - Jeph Loeb & Tim Sale</li>
-    <li>Criminal - Ed Brubaker</li>
-    <li>Weekly (Blacksad)</li>
-    <li>Soy su silencio - Jordi Lafebre</li>
-    <li>White Sky - Image comics</li>
-    <li>Bajo los árboles, donde nadie te ve - Patrick Horvarth</li>
-    <li>Carlos Ruiz Zafón - El juego del ángel</li>
-    <li>Carlos Ruiz Zafón - El prisionero del cielo</li>
-    <li>Carlos Ruiz Zafón - El laberinto de espíritus</li>
-    <li>La larga marcha - Stephen King</li>
-    <li>La colonia de Watership - Richard Adams</li>
-    <li>La luna se ha puesto - John Steinbeck</li>
-    <li>El viejo y el mar - Ernest Hemingway</li>
-    <li>Sebastian Fitzek - Terapia</li>
-    <li>The Stand - Stephen King</li>
-    <li>La muerte de Ivan Ilich - Tolstoi</li>
-    <li>Kingdom Come - Mark Waid</li>
-  </ol>
+
+  <h1>LA M1SIL-TECA</h1>
+  <p class="subtitulo">LISTA DE DESEADOS</p>
+
+  <div class="contenedor">
+
+    <!-- CÓMICS -->
+    <div class="columna">
+      <h2>CÓMICS</h2>
+
+      <ol>
+        <li>Sin City</li>
+        <li>Superman Hijo Rojo</li>
+        <li>Batman: El regreso del caballero oscuro - Frank Miller</li>
+        <li>La liga de la justicia: Origen</li>
+        <li>Nightwing</li>
+        <li>Green Lantern</li>
+        <li>The walking dead</li>
+        <li>The crow</li>
+        <li>Transmetropolitan</li>
+        <li>The nice house on the lake</li>
+        <li>El monstruo de la laguna vive - MOZTROS</li>
+        <li>Scalped</li>
+        <li>La carretera - Manu Larcenet</li>
+        <li>W0RLDTR33</li>
+        <li>Silent Jenny</li>
+        <li>I am a hero (Manga)</li>
+        <li>Moonshine</li>
+        <li>La mano y los seis dedos</li>
+        <li>Something is killing the children | Secuela - La casa Slaughter</li>
+        <li>Batman: Haunted Knight - Jeph Loeb &amp; Tim Sale</li>
+        <li>Criminal - Ed Brubaker</li>
+        <li>Weekly (Blacksad)</li>
+        <li>Soy su silencio - Jordi Lafebre</li>
+        <li>White Sky - Image comics</li>
+        <li>Bajo los árboles, donde nadie te ve - Patrick Horvarth</li>
+        <li>Kingdom Come - Mark Waid</li>
+      </ol>
+    </div>
+
+    <!-- LIBROS -->
+    <div class="columna">
+      <h2>LIBROS</h2>
+
+      <ol>
+        <li>Verity</li>
+        <li>Carlos Ruiz Zafón - El juego del ángel</li>
+        <li>Carlos Ruiz Zafón - El prisionero del cielo</li>
+        <li>Carlos Ruiz Zafón - El laberinto de espíritus</li>
+        <li>La larga marcha - Stephen King</li>
+        <li>La colonia de Watership - Richard Adams</li>
+        <li>La luna se ha puesto - John Steinbeck</li>
+        <li>El viejo y el mar - Ernest Hemingway</li>
+        <li>Sebastian Fitzek - Terapia</li>
+        <li>The Stand - Stephen King</li>
+        <li>La muerte de Ivan Ilich - Tolstoi</li>
+      </ol>
+    </div>
+
+  </div>
+
 </body>
 </html>
